@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding:0;
+    line-height: 1.3em;
+  } 
+  /* time-schedule */
+  .time-schedule {
+    min-width: 400px;
+    max-width: 400px;
+    list-style: none;
+    margin: 0 auto 0 6em;
+    padding-left: 20px;
+    border-left: 6px solid #a7be18;
+    box-sizing: border-box;
+  }
+  
+  .time-schedule li {
+    width: 100%;
+    margin: 0 0;
+    padding: 5px 0;
+    position: relative;
+  }
+  
+  .time-schedule span.time {
+    width: 5em;
+    display: inline-block;
+    margin-left: -8em;
+    padding: 0 0 5px;
+    margin-top: 15px;
+    vertical-align: top;
+    position: relative;
+    text-align: right;
+    box-sizing: border-box;
+  }
+  
+  .time-schedule span.time::after {
+    content: "";
+    position: absolute;
+    right: -35px;
+    top: 0;
+    background: #a7be18;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+  }
+  
+  .time-schedule .sch_box {
+    display: inline-block;
+    width: 100%;
+    margin-left: 30px;
+    padding: 15px 10px 15px 10px;
+    vertical-align: middle;
+    background: #efefef;
+    box-sizing: border-box;
+    border-radius: 6px;
+  }
+  
+  .time-schedule .sch_title {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  
+  .time-schedule .sch_tx {
+    font-size: 14px;
+    font-weight: normal;
+  }
