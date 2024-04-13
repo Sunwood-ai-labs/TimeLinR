@@ -3,6 +3,8 @@ import pandas as pd
 from io import StringIO
 from html2image import Html2Image
 
+hti = Html2Image()
+
 from modules.create_custom_css_file import create_custom_css_file
 from modules.timeline import generate_timeline_html
 from config import config
