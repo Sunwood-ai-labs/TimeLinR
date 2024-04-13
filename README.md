@@ -33,7 +33,7 @@ license: mit
 ![TimeLinR Demo](docs/demo.gif)
 
 ## Updates
-- v3.0.0 (2024-04-13):
+- [v3.0.0 (2024-04-13)](https://github.com/Sunwood-ai-labs/TimeLinR/releases/tag/v3.0.0):
   - Docker環境設定の導入
   - Git LFSを用いた画像ファイルの管理
   - HTMLから画像生成機能の強化
