@@ -3,8 +3,8 @@ title: TimeLinR
 emoji: ⌛
 colorFrom: blue
 colorTo: pink
-sdk: streamlit
-sdk_version: 1.33.0
+sdk: docker
+app_port: 8501
 app_file: app.py
 pinned: false
 license: mit
@@ -17,7 +17,8 @@ license: mit
 <h3 align="center">
   ～Your Timeline, Your Way～
 
-[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/OFA-Sys/OFA-Image_Caption)[![](https://img.shields.io/github/stars/Sunwood-ai-labs/TimeLinR)](https://github.com/Sunwood-ai-labs/TimeLinR)[![](https://img.shields.io/github/last-commit/Sunwood-ai-labs/TimeLinR)](https://github.com/Sunwood-ai-labs/TimeLinR)[![](https://img.shields.io/github/languages/top/Sunwood-ai-labs/TimeLinR)](https://github.com/Sunwood-ai-labs/TimeLinR)
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/Sunwood-ai-labs/TimeLinR)[![](https://img.shields.io/github/stars/Sunwood-ai-labs/TimeLinR)](https://github.com/Sunwood-ai-labs/TimeLinR)[![](https://img.shields.io/github/last-commit/Sunwood-ai-labs/TimeLinR)](https://github.com/Sunwood-ai-labs/TimeLinR)[![](https://img.shields.io/github/languages/top/Sunwood-ai-labs/TimeLinR)](https://github.com/Sunwood-ai-labs/TimeLinR)[![GitHub Release](https://img.shields.io/github/v/release/Sunwood-ai-labs/TimeLinR?sort=date&color=red)
+](https://github.com/Sunwood-ai-labs/TimeLinR)
 </h3>
 
 </p>
@@ -32,6 +33,11 @@ license: mit
 ![TimeLinR Demo](docs/demo.gif)
 
 ## Updates
+- v3.0.0 (2024-04-13):
+  - Docker環境設定の導入
+  - Git LFSを用いた画像ファイルの管理
+  - HTMLから画像生成機能の強化
+  - ドキュメント更新とUI改善
 - v2.0.0 (2023-04-11):
   - タイムラインのテーマカラーのカスタマイズ機能を追加
   - タイムラインのPNG画像エクスポート機能を実装
