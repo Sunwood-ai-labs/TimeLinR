@@ -50,9 +50,9 @@ def generate_timeline(df, margin_coefficient):
     return timeline_html
 
 def create_custom_css(border_color, marker_color, box_background):
-    os.makedirs("/tmp_TimeLinR", exist_ok=True)
+    os.makedirs("./tmp_TimeLinR", exist_ok=True)
 
-    css_file_path = create_custom_css_file(border_color, marker_color, box_background, '/tmp_TimeLinR/custom_style.css')
+    css_file_path = create_custom_css_file(border_color, marker_color, box_background, './tmp_TimeLinR/custom_style.css')
     custom_css = load_css(css_file_path)
     st.markdown(f'<style>{custom_css}</style>', unsafe_allow_html=True)
     return custom_css

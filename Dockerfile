@@ -1,7 +1,11 @@
 FROM python:3.12-slim
 
+RUN useradd -m -u 1000 user
+USER user
+
+
 WORKDIR /app
-USER root
+RUN chown -R user:user /app
 
 # Install system dependencies required for Chromium and git
 RUN apt-get update && \
@@ -13,6 +17,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
+COPY --chown=user:user . /app
 EXPOSE 8501
 
 # Set the PATH for Chromium
