@@ -34,6 +34,8 @@ license: mit
 
 
 ## Demo
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/Sunwood-ai-labs/TimeLinR)
+
 ![TimeLinR Demo](https://media.githubusercontent.com/media/Sunwood-ai-labs/TimeLinR/develop/docs/TimeLinR_demo.gif)
 
 ## Updates
