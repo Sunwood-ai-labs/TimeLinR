@@ -1,6 +1,7 @@
 FROM python:3.12-slim
 
 WORKDIR /app
+USER root
 
 # Install system dependencies required for Chromium and git
 RUN apt-get update && \
