@@ -8,6 +8,7 @@ hti = Html2Image()
 from modules.create_custom_css_file import create_custom_css_file
 from modules.timeline import generate_timeline_html
 from config import config
+import os
 
 st.set_page_config(layout="wide")
 hti = Html2Image()
@@ -49,7 +50,9 @@ def generate_timeline(df, margin_coefficient):
     return timeline_html
 
 def create_custom_css(border_color, marker_color, box_background):
-    css_file_path = create_custom_css_file(border_color, marker_color, box_background, '/custom_style.css')
+    os.makedirs("/tmp_TimeLinR", exist_ok=True)
+
+    css_file_path = create_custom_css_file(border_color, marker_color, box_background, '/tmp_TimeLinR/custom_style.css')
     custom_css = load_css(css_file_path)
     st.markdown(f'<style>{custom_css}</style>', unsafe_allow_html=True)
     return custom_css
