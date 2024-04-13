@@ -29,8 +29,14 @@ license: mit
 - TimeLinRは、時間の流れを直感的に可視化し、スケジュール管理やイベントの記録に役立ちます。
 - 生成されたタイムラインはPNG画像としてエクスポートできます。
 
+>[!TIP]
+>このリポジトリは[SourceSage](https://github.com/Sunwood-ai-labs/SourceSage)を活用しており、リリースノートやREADME、コミットメッセージの9割は[SourceSage](https://github.com/Sunwood-ai-labs/SourceSage) ＋ [claude.ai](https://claude.ai/)で生成しています。
+
+
 ## Demo
-![TimeLinR Demo](docs/demo.gif)
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/Sunwood-ai-labs/TimeLinR)
+
+![TimeLinR Demo](https://media.githubusercontent.com/media/Sunwood-ai-labs/TimeLinR/develop/docs/TimeLinR_demo.gif)
 
 ## Updates
 - [v3.0.0 (2024-04-13)](https://github.com/Sunwood-ai-labs/TimeLinR/releases/tag/v3.0.0):
